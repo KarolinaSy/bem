@@ -1,4 +1,9 @@
-font-family: 'Josefin Sans', sans-serif;
+
+@font-face {
+    font-family: "Josefin Sans", sans-serif;
+    src: url();
+    
+}
 
 
 
@@ -6,6 +11,7 @@ font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
 
 }
 
@@ -59,15 +65,15 @@ font-family: 'Josefin Sans', sans-serif;
 }
 */
 
+
+
 .Galeria {
     /*GRID*/
     display: grid;
-
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, 1fr);
     
     
-
     
 }
 
@@ -75,26 +81,37 @@ font-family: 'Josefin Sans', sans-serif;
     width: 100%;
     height: 100%;
     border-left: 8px  solid transparent;
-    background-color: white; 
-    
+    background-color: white;
+    border-top: 8px solid transparent;
+    background-color: white;
+   
     
 }
 
+
 .Galeria-img--2f {
+    
     grid-row: span 2;
+ 
+    
 }
 
 .Galeria-img--2c {
 
     grid-column: span 2;
-
+   
+   
 }
 
 .Galeria-img--4 {
     grid-row: span 2;
     grid-column: span 2;
+   
 
 }
+
+
+
 
 
 /*Footer*/
