@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: "Josefin Sans", sans-serif;
-    src: url();
+    src: url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
     
 }
 
@@ -40,7 +40,8 @@
 
 .Header__mains{
 
-    font-size: 90%;
+    display: inline-block;
+    font-size: 60%;
     position: absolute;
     width: 100%;
     flex-direction: column;
@@ -52,6 +53,8 @@
 
 .Main{
     color: gray;
+    
+    
 }
 
 
@@ -111,30 +114,39 @@
 }
 
 
-
-
-
 /*Footer*/
 
 
 
 .Footer {
-    font-size: 80%;
+    font-size: 100%;
     position: absolute;
     width: 100%;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 30px;
     background-color: white;
     margin: 88px 0 20px 0;
     color: gray;
+   
 
 
 }
 
 .Footer__text {
     margin: 20px;
+}
+
+.Footer__links {
+
+    display: block;
+    color: black;
+    padding-top: 30px;
+    font-size: 18px;
+    letter-spacing:15px;
+    margin-top: 20px;
+    
 }
 
 .Footer__rights {
