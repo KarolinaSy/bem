@@ -1,8 +1,7 @@
-
 @font-face {
     font-family: "Josefin Sans", sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-    
+
 }
 
 
@@ -17,38 +16,64 @@
 
 /* Menú */
 
-.Header {
-
-    width: 100%;
-    background-color: white;
-
-}
-
-.Header__top {
-
-    width: 20px;
-    height: 20px;
-    margin: 20px 0;
-}
-
-.Header__top, .Header__img{
+.header__a--img {
 
     display: flex;
-    font-size: 20px;
+    font-size: 3px;
+    position: relative;
+    margin: 1 auto;
+}
+
+.header__top {
+
+    display: flex;
+    font-size: 10px;
     margin: 30px 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 420px;
+
 }
 
-.header{}
 
-.header__a{}
+.header__nav--top{
 
-.header__a--nav{
+    justify-content: center;
+    align-items: center;
 }
-.header__nav{}
 
-.header__ul{}
+.header__a--nav {
 
-.header__li{}
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+
+}
+
+.header__a--nav--black {
+
+    text-decoration: none;
+    list-style: none;
+    color: black;
+
+}
+
+.header__nav {
+
+    justify-content: center;
+
+}
+
+
+.header__li {
+
+    vertical-align: top;
+    display: inline;
+    font-size: 1.2em;
+    padding: 0.5em;
+    justify-content: center;
+    
+}
 
 
 
@@ -69,41 +94,41 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    
-    
-    
+
+
+
 }
 
 .Galeria-img {
     width: 100%;
     height: 100%;
-    border-left: 8px  solid transparent;
+    border-left: 8px solid transparent;
     background-color: white;
     border-top: 8px solid transparent;
     background-color: white;
-   
-    
+
+
 }
 
 
 .Galeria-img--2f {
-    
+
     grid-row: span 2;
- 
-    
+
+
 }
 
 .Galeria-img--2c {
 
     grid-column: span 2;
-   
-   
+
+
 }
 
 .Galeria-img--4 {
     grid-row: span 2;
     grid-column: span 2;
-   
+
 
 }
 
@@ -123,7 +148,7 @@
     background-color: white;
     margin: 88px 0 20px 0;
     color: gray;
-   
+
 
 
 }
@@ -138,9 +163,9 @@
     color: black;
     padding-top: 30px;
     font-size: 18px;
-    letter-spacing:15px;
+    letter-spacing: 15px;
     margin-top: 20px;
-    
+
 }
 
 .Footer__rights {
