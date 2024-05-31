@@ -31,9 +31,12 @@
     margin: 30px 30px;
     align-items: center;
     justify-content: space-between;
-    padding-right: 420px;
+    padding-right: 400px;
 
 }
+
+
+
 
 
 .header__nav--top{
@@ -64,6 +67,10 @@
 
 }
 
+.header__ul{
+
+    word-spacing: 35px;
+}
 
 .header__li {
 
@@ -75,6 +82,12 @@
     
 }
 
+.header__icon{
+
+    display: flex;
+    font-size: 20px;
+    
+}
 
 
 /* Imagenes*/
