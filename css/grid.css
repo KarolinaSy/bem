@@ -83,7 +83,7 @@
 /* Imagenes*/
 
 
-.Galeria {
+.galeria {
     /*GRID*/
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -93,7 +93,7 @@
 
 }
 
-.Galeria-img {
+.galeria-img {
     width: 100%;
     height: 100%;
     border-left: 8px solid transparent;
@@ -104,21 +104,21 @@
 
 }
 
-.Galeria-img--2f {
+.galeria-img--2f {
 
     grid-row: span 2;
 
 
 }
 
-.Galeria-img--2c {
+.galeria-img--2c {
 
     grid-column: span 2;
 
 
 }
 
-.Galeria-img--4 {
+.galeria-img--4 {
     grid-row: span 2;
     grid-column: span 2;
 
@@ -128,7 +128,7 @@
 
 /*Footer*/
 
-.Footer {
+.footer {
     font-size: 100%;
     position: absolute;
     width: 100%;
@@ -141,11 +141,11 @@
     color: gray;
 }
 
-.Footer__text {
+.footer__text {
     margin: 20px;
 }
 
-.Footer__links {
+.footer__links {
 
     display: block;
     color: black;
@@ -156,7 +156,7 @@
 
 }
 
-.Footer__rights {
+.footer__rights {
 
     margin-top: 80px;
     padding: 20px;
