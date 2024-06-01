@@ -4,8 +4,6 @@
 
 }
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -27,30 +25,20 @@
 .header__top {
 
     display: flex;
-    font-size: 10px;
+    font-size: 8px;
     margin: 30px 30px;
     align-items: center;
     justify-content: space-between;
-    padding-right: 400px;
 
 }
 
-
-
-
-
-.header__nav--top{
-
-    justify-content: center;
-    align-items: center;
-}
 
 .header__a--nav {
 
     list-style: none;
     text-decoration: none;
     color: gray;
-
+    
 }
 
 .header__a--nav--black {
@@ -64,6 +52,7 @@
 .header__nav {
 
     justify-content: center;
+    margin-right:80px ;
 
 }
 
@@ -79,27 +68,19 @@
     font-size: 1.2em;
     padding: 0.5em;
     justify-content: center;
+    letter-spacing: 3px;
     
 }
 
 .header__icon{
 
     display: flex;
-    font-size: 20px;
+    font-size: 18px;
     
 }
 
 
 /* Imagenes*/
-
-
-/*
-.Contenido{
-    height: 150vw;
-    width: 150vh;
-}
-*/
-
 
 
 .Galeria {
@@ -122,7 +103,6 @@
 
 
 }
-
 
 .Galeria-img--2f {
 
@@ -148,8 +128,6 @@
 
 /*Footer*/
 
-
-
 .Footer {
     font-size: 100%;
     position: absolute;
@@ -161,9 +139,6 @@
     background-color: white;
     margin: 88px 0 20px 0;
     color: gray;
-
-
-
 }
 
 .Footer__text {
