@@ -17,9 +17,7 @@
 .header__a--img {
 
     display: flex;
-    font-size: 3px;
-    position: relative;
-    margin: 1 auto;
+    font-size: 2%;
 }
 
 .header__top {
